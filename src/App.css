@@ -90,3 +90,32 @@
     transform: rotate(360deg);
   }
 }
+
+.selected {
+    background-color: blue;
+  }
+
+  .color-inputs {
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px; 
+    margin-top: 25px;
+  }
+  
+  .color-input {
+    margin-right: 25px; 
+  }
+
+  .color-square {
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px;
+    margin-top: 25px;
+  }
+
+  .color-value {
+    display: flex;
+    margin-right: 25px;
+  }
+  
+
